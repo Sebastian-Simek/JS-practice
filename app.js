@@ -1,6 +1,7 @@
 const sodaBottle = document.getElementById('soda');
 const pieceOfCheese = document.getElementById('cheese');
 const bundleOfGrapes = document.getElementById('grapes');
+const loafOfBread = document.getElementById('bread');
 
 
 sodaBottle.addEventListener('click', () => {
@@ -13,4 +14,8 @@ pieceOfCheese.addEventListener('click', () => {
 
 bundleOfGrapes.addEventListener('click', () => {
     bundleOfGrapes.classList.toggle('picked');
+});
+
+loafOfBread.addEventListener('click', () => {
+    loafOfBread.classList.toggle('picked');
 });
